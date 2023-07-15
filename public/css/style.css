@@ -1,0 +1,37 @@
+
+body{
+  background-image: url("../images/bask.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+  }
+  #infoBtn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+  }
+  .main{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .twitt{
+    color: rgb(255, 73, 73);
+  }
+
+  .elbrus{
+    color: red;
+  }
+  .text_pravilo{
+    color: white;
+  }

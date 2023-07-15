@@ -1,0 +1,15 @@
+.img_home_rc{
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+
+    margin-left: 190px;
+position: relative;
+}
+.img_home_devil{
+    width: 250px;
+    height: 260px;
+    position: absolute;
+    left: 350px;
+    top: 250px;
+}

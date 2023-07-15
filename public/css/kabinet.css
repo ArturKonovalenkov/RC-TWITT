@@ -1,0 +1,225 @@
+
+.img_icon_lenta{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+
+}
+
+.user_login{
+  display: flex;
+  flex-direction: row;
+    align-items: flex-end;
+    gap: 2rem;
+    
+}
+
+
+ .tabble_navigation{
+       list-style-type:none
+   }
+   .sylka {
+       color: rgb(192, 187, 187);
+   }
+  
+   a:hover {
+       color: black;
+     }
+  
+      .container {
+        width: 100%;
+      }
+      
+      .kabinet {
+        display: flex;
+        gap: 5rem;
+      }
+     .kabinet_two {
+        display: flex;
+        gap: 5rem;
+      }
+      
+      .kabinet_info {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+      }
+      
+      .ava_name {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      h1{
+        color: rgb(192, 187, 187);
+      }
+      h2 {
+        margin-left: 10px;
+        
+      }
+      
+      .kabinet.post {
+        order: 1;
+      }
+      
+      .kabinet_ava {
+        border-radius: 100px;
+        width: 150px;
+        height: 150px;
+      }
+      
+      #kabinet-input {
+        width: 67%;
+      }
+      .kabinet_info{
+        width: 300px;
+      }
+      .btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .kabinet_ava{
+        margin-left: 10px;
+      }
+      .info_ava {
+        margin-top: 20px;
+      }
+      
+      .info_kabinet {
+        margin-right: 10px;
+       
+      }
+      
+      .info_allPost {
+        margin-right: 10px;
+        
+        
+      }
+      
+      .card {
+        margin-bottom: 10px;
+        min-height: 100px;
+        margin-right: 10px;
+      }
+      
+      .card_btn {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-top: solid 2px gold;
+      }
+      
+      .post_allPost {
+        width: 90%;
+      }
+      .card-body{
+        background-color: rgb(19, 27, 46);;
+      }
+      .card-text{
+        color: aliceblue;
+      }
+      .kabinet_post_edit {
+        display: flex;
+        justify-content: start;
+      }
+      
+      .kabinet_info_edit {
+        width: 200px;
+      }
+      
+      .kabinet_post {
+        flex-grow: 1;
+      }
+    .user_login{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      color: rgb(192, 187, 187);
+      padding-bottom: 10px; 
+      
+    }
+    .lenta{
+      color: rgb(192, 187, 187);
+    }
+    .login_ava{
+      display: flex;
+      align-items: flex-end;
+      gap: 1rem;
+    }
+
+    .name_users_lenta{
+      font-size: 20px;
+      color: rgb(194, 189, 189);
+    }
+    
+    .card-text {
+      padding: 20px 0px;
+      
+    }
+.reiting{
+  display: flex;
+  gap: 2rem;
+}
+    .like{
+      width: 30px;
+      height: 20px;
+    }
+    .dislike{
+      width: 30px;
+      height: 20px;
+    }
+
+    .dog_img{
+      width: 400px;
+
+      height: 400px;
+    }
+
+.tabble{
+  display: flex;
+  gap: 10rem;
+}
+.tabble_name{
+  display: flex;
+  align-items: center
+}
+.tabble_buuton{}
+
+    @media only screen and (max-width: 600px) {
+      /* Здесь вы можете добавить стили, специфичные для мобильных устройств */
+      .kabinet{
+        flex-wrap: wrap;
+      }
+      .card_body{
+        width: 400px;
+      }
+      .navbar-nav{
+        margin-left: 100px;
+    }
+  }
+    
+    /* Стили для планшетов */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      .kabinet{
+        flex-wrap: wrap;
+      }
+ 
+
+    }
+    
+    /* Стили для настольных компьютеров */
+    @media only screen and (min-width: 1025px) {
+  
+    }
+
+    .tabble_name{
+      height: 80px;
+    }
+
+    .regTitle, .logTitle, .form-label, p{
+      color: rgb(190, 187, 187);
+    }
+    .kabinet_4{
+      display: flex;
+    }
